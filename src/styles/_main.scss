@@ -1,0 +1,37 @@
+.carousel {
+    background: black;
+    overflow: hidden;
+
+    img {
+        display: block !important;
+    }
+
+    h1 {
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+        color: white;
+    }
+
+    h2 {
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+        color: white;
+        font-weight: 300;
+    }
+
+    .slick-slider {
+        margin-bottom: 200px;
+    }
+
+    .slick-dots {
+        // margin-top: 20px;
+        bottom: -35px;
+
+        li button:before {
+            font-size: 20px;
+            color: white;
+        }
+
+        li.slick-active button:before {
+            color: white;
+        }
+    }
+}
