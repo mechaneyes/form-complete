@@ -1,37 +1,101 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+    scrollbar-width: none;
+}
+
 .carousel {
-    background: black;
-    overflow: hidden;
+  background: black;
+  overflow: hidden;
+  box-sizing: border-box;
+  color: white;
 
-    img {
-        display: block !important;
+  * {
+    box-sizing: border-box;
+  }
+
+  img {
+    display: block !important;
+    // transform: rotate(90deg);
+  }
+
+  h1 {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+      Helvetica, Arial, "Lucida Grande", sans-serif;
+  }
+
+  h2 {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+      Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+  }
+
+  .mob-disclaimer {
+    display: none;
+    width: 80%;
+    margin: 0 auto 25px;
+    line-height: 1.4;
+
+    &:first-of-type {
+      margin-bottom: 10px;
+    }
+  }
+
+  hr {
+    display: none;
+  }
+
+  .slick-slider {
+    margin-bottom: 200px;
+  }
+
+  .slick-dots {
+    // margin-top: 20px;
+    bottom: -35px;
+
+    li button:before {
+      font-size: 20px;
+      color: white;
     }
 
-    h1 {
-        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-        color: white;
+    li.slick-active button:before {
+      color: white;
     }
+  }
 
+  @media only screen and (max-width: 600px) {
     h2 {
-        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-        color: white;
-        font-weight: 300;
+      margin-bottom: 10px;
+    }
+
+    hr {
+      display: block;
+      width: 90%;
+      border-color: darkgray;
+    }
+
+    .mob-disclaimer {
+      display: block;
     }
 
     .slick-slider {
-        margin-bottom: 200px;
+      top: -20px;
+      height: 100vh;
+      margin-bottom: 50px;
+    }
+
+    .slick-list {
+      top: 22vh;
+      // left: -40vw;
+      width: 100vw;
+      width: 174vw;
+      transform: translate3d(-37vw, 0, 0) rotate(90deg) !important;
     }
 
     .slick-dots {
-        // margin-top: 20px;
-        bottom: -35px;
-
-        li button:before {
-            font-size: 20px;
-            color: white;
-        }
-
-        li.slick-active button:before {
-            color: white;
-        }
+      bottom: 30px;
     }
+  }
 }

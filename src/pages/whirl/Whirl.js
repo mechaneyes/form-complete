@@ -18,7 +18,17 @@ const Whirl = () => {
 
   return (
     <div className="carousel">
-      <h1>Reverie 2021.01</h1>
+      <h1>Reverie, 2021</h1>
+      <p className="mob-disclaimer">
+        These images are rotated 90° for mobile viewing, but they're meant to
+        be hung in portrait orientations.
+      </p>
+      <p className="mob-disclaimer">
+        Visit this page using a bigger monitor to see them as intended.
+      </p>
+
+      <hr />
+
       {/* <!-- ————————————————————————————————————o Reverie - Vibes from the Tribe --> */}
       <h2>Vibes from the Tribe</h2>
       <Slider {...slickSettings}>
