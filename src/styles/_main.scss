@@ -3,43 +3,74 @@ body::-webkit-scrollbar {
 }
 
 body {
-    scrollbar-width: none;
+  scrollbar-width: none;
+  background-color: black;
 }
 
 .carousel {
   background: black;
   overflow: hidden;
   box-sizing: border-box;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
   color: white;
+
+  // <!-- ————————————————————————————————————o Post Later -->
+  #drone-logic {
+    // display: none;
+
+    & + div {
+      // display: none;
+    }
+  }
 
   * {
     box-sizing: border-box;
   }
 
+  a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+  }
+
   img {
     display: block !important;
     // transform: rotate(90deg);
+    width: 100%;
   }
 
   h1 {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
-      Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 40px;
   }
 
   h2 {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
-      Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 35px;
     font-weight: 300;
+  }
+
+  h3 {
+    font-size: 25px;
+    font-weight: 300;
+  }
+
+  p {
+    font-size: 19px;
+  }
+
+  .gig-header {
+    margin-bottom: 50px;
+    // border: 1px solid deepskyblue;
   }
 
   .mob-disclaimer {
     display: none;
     width: 80%;
-    margin: 0 auto 25px;
+    margin: 0 auto 10px;
     line-height: 1.4;
 
     &:first-of-type {
-      margin-bottom: 10px;
+      // margin-bottom: 10px;
     }
   }
 
@@ -66,13 +97,20 @@ body {
   }
 
   @media only screen and (max-width: 600px) {
+    img {
+      // height: 100vh;
+      // width: auto;
+      width: 100vw;
+    }
+
     h2 {
-      margin-bottom: 10px;
+      margin-bottom: 0;
     }
 
     hr {
       display: block;
       width: 90%;
+      margin: 30px 0 70px;
       border-color: darkgray;
     }
 
@@ -81,21 +119,21 @@ body {
     }
 
     .slick-slider {
-      top: -20px;
-      height: 100vh;
-      margin-bottom: 50px;
+      // top: -20px;
+      // height: 100vh;
+      margin-bottom: 150px;
     }
 
     .slick-list {
-      top: 22vh;
+      top: 30px;
       // left: -40vw;
       width: 100vw;
       width: 174vw;
-      transform: translate3d(-37vw, 0, 0) rotate(90deg) !important;
+      // transform: translate3d(-37vw, 0, 0) rotate(90deg) !important;
     }
 
     .slick-dots {
-      bottom: 30px;
+      bottom: -70px;
     }
   }
 }
