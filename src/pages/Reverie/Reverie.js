@@ -39,7 +39,7 @@ const Whirl = () => {
               process.env.PUBLIC_URL +
               "/img/awareness/90_Reverie-StateOfAwareness-0.1.0.jpg"
             }
-            media="(max-width: 767px)"
+            media="(max-width: 500px)"
           />
           <img
             alt="Reverie - State of Awareness - 0.1.0"
@@ -55,7 +55,7 @@ const Whirl = () => {
               process.env.PUBLIC_URL +
               "/img/awareness/90_Reverie-StateOfAwareness-0.2.1.jpg"
             }
-            media="(max-width: 767px)"
+            media="(max-width: 500px)"
           />
           <img
             alt="Reverie - State of Awareness - 0.2.1"
@@ -71,7 +71,7 @@ const Whirl = () => {
               process.env.PUBLIC_URL +
               "/img/awareness/90_Reverie-StateOfAwareness-0.3.0.jpg"
             }
-            media="(max-width: 767px)"
+            media="(max-width: 500px)"
           />
           <img
             alt="Reverie - State of Awareness - 0.3.0"
@@ -87,7 +87,7 @@ const Whirl = () => {
               process.env.PUBLIC_URL +
               "/img/awareness/90_Reverie-StateOfAwareness-0.4.0.jpg"
             }
-            media="(max-width: 767px)"
+            media="(max-width: 500px)"
           />
           <img
             alt="Reverie - State of Awareness - 0.4.0"
@@ -103,7 +103,7 @@ const Whirl = () => {
               process.env.PUBLIC_URL +
               "/img/awareness/90_Reverie-StateOfAwareness-0.5.0.jpg"
             }
-            media="(max-width: 767px)"
+            media="(max-width: 500px)"
           />
           <img
             alt="Reverie - State of Awareness - 0.5.0"
@@ -119,7 +119,7 @@ const Whirl = () => {
               process.env.PUBLIC_URL +
               "/img/awareness/90_Reverie-StateOfAwareness-0.6.0.jpg"
             }
-            media="(max-width: 767px)"
+            media="(max-width: 500px)"
           />
           <img
             alt="Reverie - State of Awareness - 0.6.0"
@@ -135,7 +135,7 @@ const Whirl = () => {
               process.env.PUBLIC_URL +
               "/img/awareness/90_Reverie-StateOfAwareness-0.7.0.jpg"
             }
-            media="(max-width: 767px)"
+            media="(max-width: 500px)"
           />
           <img
             alt="Reverie - State of Awareness - 0.7.0"
@@ -157,7 +157,7 @@ const Whirl = () => {
               process.env.PUBLIC_URL +
               "/img/beyond/90_Reverie-AwarenessBeyondThought-0.2.1.jpg"
             }
-            media="(max-width: 767px)"
+            media="(max-width: 500px)"
           />
           <img
             alt="Reverie - Awareness Beyond Thought - 0.2.1"
@@ -173,7 +173,7 @@ const Whirl = () => {
               process.env.PUBLIC_URL +
               "/img/beyond/90_Reverie-AwarenessBeyondThought-0.3.0.jpg"
             }
-            media="(max-width: 767px)"
+            media="(max-width: 500px)"
           />
           <img
             alt="Reverie - Awareness Beyond Thought - 0.3.0"
@@ -189,7 +189,7 @@ const Whirl = () => {
               process.env.PUBLIC_URL +
               "/img/beyond/90_Reverie-AwarenessBeyondThought-0.3.0.jpg"
             }
-            media="(max-width: 767px)"
+            media="(max-width: 500px)"
           />
           <img
             alt="Reverie - Awareness Beyond Thought - 0.4.0"
@@ -205,7 +205,7 @@ const Whirl = () => {
               process.env.PUBLIC_URL +
               "/img/beyond/90_Reverie-AwarenessBeyondThought-0.5.0.jpg"
             }
-            media="(max-width: 767px)"
+            media="(max-width: 500px)"
           />
           <img
             alt="Reverie - Awareness Beyond Thought - 0.5.0"
@@ -221,7 +221,7 @@ const Whirl = () => {
               process.env.PUBLIC_URL +
               "/img/beyond/90_Reverie-AwarenessBeyondThought-0.6.0.jpg"
             }
-            media="(max-width: 767px)"
+            media="(max-width: 500px)"
           />
           <img
             alt="Reverie - Awareness Beyond Thought - 0.6.0"
@@ -237,7 +237,7 @@ const Whirl = () => {
               process.env.PUBLIC_URL +
               "/img/beyond/90_Reverie-AwarenessBeyondThought-0.7.0.jpg"
             }
-            media="(max-width: 767px)"
+            media="(max-width: 500px)"
           />
           <img
             alt="Reverie - Awareness Beyond Thought - 0.7.0"
@@ -253,7 +253,7 @@ const Whirl = () => {
               process.env.PUBLIC_URL +
               "/img/beyond/90_Reverie-AwarenessBeyondThought-0.1.0.jpg"
             }
-            media="(max-width: 767px)"
+            media="(max-width: 500px)"
           />
           <img
             alt="Reverie - Awareness Beyond Thought - 0.1.0"
@@ -275,7 +275,7 @@ const Whirl = () => {
               process.env.PUBLIC_URL +
               "/img/sitting/90_Reverie-SimplySittingSilently-1.0.0.jpg"
             }
-            media="(max-width: 767px)"
+            media="(max-width: 500px)"
           />
           <img
             alt="Reverie - Simply Sitting Silently - 1.0.0"
@@ -291,7 +291,7 @@ const Whirl = () => {
               process.env.PUBLIC_URL +
               "/img/sitting/90_Reverie-SimplySittingSilently-1.2.0.jpg"
             }
-            media="(max-width: 767px)"
+            media="(max-width: 500px)"
           />
           <img
             alt="Reverie - Simply Sitting Silently - 1.2.0"
@@ -307,7 +307,7 @@ const Whirl = () => {
               process.env.PUBLIC_URL +
               "/img/sitting/90_Reverie-SimplySittingSilently-1.5.0.jpg"
             }
-            media="(max-width: 767px)"
+            media="(max-width: 500px)"
           />
           <img
             alt="Reverie - Simply Sitting Silently - 1.5.0"
@@ -323,7 +323,7 @@ const Whirl = () => {
               process.env.PUBLIC_URL +
               "/img/sitting/90_Reverie-SimplySittingSilently-1.6.0.jpg"
             }
-            media="(max-width: 767px)"
+            media="(max-width: 500px)"
           />
           <img
             alt="Reverie - Simply Sitting Silently - 1.6.0"
@@ -345,7 +345,7 @@ const Whirl = () => {
               process.env.PUBLIC_URL +
               "/img/embrace/90_Reverie-AndThusEmbraceASacredMystery-0.1.0.jpg"
             }
-            media="(max-width: 767px)"
+            media="(max-width: 500px)"
           />
           <img
             alt="Reverie - And Thus Embrace a Sacred Mystery - 0.1.0"
@@ -361,7 +361,7 @@ const Whirl = () => {
               process.env.PUBLIC_URL +
               "/img/embrace/90_Reverie-AndThusEmbraceASacredMystery-0.2.0.jpg"
             }
-            media="(max-width: 767px)"
+            media="(max-width: 500px)"
           />
           <img
             alt="Reverie - And Thus Embrace a Sacred Mystery - 0.2.0"
@@ -377,7 +377,7 @@ const Whirl = () => {
               process.env.PUBLIC_URL +
               "/img/embrace/90_Reverie-AndThusEmbraceASacredMystery-0.3.0.jpg"
             }
-            media="(max-width: 767px)"
+            media="(max-width: 500px)"
           />
           <img
             alt="Reverie - And Thus Embrace a Sacred Mystery - 0.3.0"
@@ -393,7 +393,7 @@ const Whirl = () => {
               process.env.PUBLIC_URL +
               "/img/embrace/90_Reverie-AndThusEmbraceASacredMystery-0.4.0.jpg"
             }
-            media="(max-width: 767px)"
+            media="(max-width: 500px)"
           />
           <img
             alt="Reverie - And Thus Embrace a Sacred Mystery - 0.4.0"
@@ -409,7 +409,7 @@ const Whirl = () => {
               process.env.PUBLIC_URL +
               "/img/embrace/90_Reverie-AndThusEmbraceASacredMystery-0.5.0.jpg"
             }
-            media="(max-width: 767px)"
+            media="(max-width: 500px)"
           />
           <img
             alt="Reverie - And Thus Embrace a Sacred Mystery - 0.5.0"
@@ -425,7 +425,7 @@ const Whirl = () => {
               process.env.PUBLIC_URL +
               "/img/embrace/90_Reverie-AndThusEmbraceASacredMystery-0.6.0.jpg"
             }
-            media="(max-width: 767px)"
+            media="(max-width: 500px)"
           />
           <img
             alt="Reverie - And Thus Embrace a Sacred Mystery - 0.6.0"
@@ -447,7 +447,7 @@ const Whirl = () => {
               process.env.PUBLIC_URL +
               "/img/vibes/90_Reverie-VibesFromTheTribe-0.6.0.png"
             }
-            media="(max-width: 767px)"
+            media="(max-width: 500px)"
           />
           <img
             alt="Reverie - Vibes from the Tribe - 0.6.0"
@@ -462,130 +462,19 @@ const Whirl = () => {
       {/* <!-- ————————————————————————————————————o Reverie - VV Blue --> */}
       {/* <!-- ————————————————————————————————————o --> */}
       <h2>LVvLV</h2>
-        <picture>
-          <source
-            srcSet={
-              process.env.PUBLIC_URL + "/img/90_Reverie-Awareness-0.6.0.jpg"
-            }
-            media="(max-width: 767px)"
-          />
-          <img
-            alt="Reverie - VV Blue - 0.1.0"
-            src={process.env.PUBLIC_URL + "/img/Reverie-Awareness-0.6.0.jpg"}
-            style={{marginBottom: 150}}
-          />
-        </picture>
-
-      {/* <!-- ————————————————————————————————————o Reverie - Louie V Luther V --> */}
-      {/* <!-- ————————————————————————————————————o --> */}
-      <h2>Luther V vs Louie V</h2>
-      <Slider {...slickSettings}>
-        <picture>
-          <source
-            srcSet={
-              process.env.PUBLIC_URL +
-              "/img/vv/90_Reverie-LouieVLutherV-0.1.0.png"
-            }
-            media="(max-width: 767px)"
-          />
-          <img
-            alt="Reverie - Louie V Luther V - 0.1.0"
-            src={
-              process.env.PUBLIC_URL + "/img/vv/Reverie-LouieVLutherV-0.1.0.png"
-            }
-          />
-        </picture>
-        <picture>
-          <source
-            srcSet={
-              process.env.PUBLIC_URL +
-              "/img/vv/90_Reverie-LouieVLutherV-0.2.1.png"
-            }
-            media="(max-width: 767px)"
-          />
-          <img
-            alt="Reverie - Louie V Luther V - 0.2.1"
-            src={
-              process.env.PUBLIC_URL + "/img/vv/Reverie-LouieVLutherV-0.2.1.png"
-            }
-          />
-        </picture>
-        <picture>
-          <source
-            srcSet={
-              process.env.PUBLIC_URL +
-              "/img/vv/90_Reverie-LouieVLutherV-0.3.0.png"
-            }
-            media="(max-width: 767px)"
-          />
-          <img
-            alt="Reverie - Louie V Luther V - 0.3.0"
-            src={
-              process.env.PUBLIC_URL + "/img/vv/Reverie-LouieVLutherV-0.3.0.png"
-            }
-          />
-        </picture>
-        <picture>
-          <source
-            srcSet={
-              process.env.PUBLIC_URL +
-              "/img/vv/90_Reverie-LouieVLutherV-0.4.0.png"
-            }
-            media="(max-width: 767px)"
-          />
-          <img
-            alt="Reverie - Louie V Luther V - 0.4.0"
-            src={
-              process.env.PUBLIC_URL + "/img/vv/Reverie-LouieVLutherV-0.4.0.png"
-            }
-          />
-        </picture>
-        <picture>
-          <source
-            srcSet={
-              process.env.PUBLIC_URL +
-              "/img/vv/90_Reverie-LouieVLutherV-0.5.0.png"
-            }
-            media="(max-width: 767px)"
-          />
-          <img
-            alt="Reverie - Louie V Luther V - 0.5.0"
-            src={
-              process.env.PUBLIC_URL + "/img/vv/Reverie-LouieVLutherV-0.5.0.png"
-            }
-          />
-        </picture>
-        <picture>
-          <source
-            srcSet={
-              process.env.PUBLIC_URL +
-              "/img/vv/90_Reverie-LouieVLutherV-0.6.0.png"
-            }
-            media="(max-width: 767px)"
-          />
-          <img
-            alt="Reverie - Louie V Luther V - 0.6.0"
-            src={
-              process.env.PUBLIC_URL + "/img/vv/Reverie-LouieVLutherV-0.6.0.png"
-            }
-          />
-        </picture>
-        <picture>
-          <source
-            srcSet={
-              process.env.PUBLIC_URL +
-              "/img/vv/90_Reverie-LouieVLutherV-0.7.0.png"
-            }
-            media="(max-width: 767px)"
-          />
-          <img
-            alt="Reverie - Louie V Luther V - 0.7.0"
-            src={
-              process.env.PUBLIC_URL + "/img/vv/Reverie-LouieVLutherV-0.7.0.png"
-            }
-          />
-        </picture>
-      </Slider>
+      <picture>
+        <source
+          srcSet={
+            process.env.PUBLIC_URL + "/img/90_Reverie-Awareness-0.6.0.jpg"
+          }
+          media="(max-width: 500px)"
+        />
+        <img
+          alt="Reverie - VV Blue - 0.1.0"
+          src={process.env.PUBLIC_URL + "/img/Reverie-Awareness-0.6.0.jpg"}
+          style={{ marginBottom: 150 }}
+        />
+      </picture>
     </div>
   );
 };
