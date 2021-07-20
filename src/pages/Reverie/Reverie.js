@@ -17,17 +17,32 @@ const Whirl = () => {
   };
 
   return (
-    <div className="carousel">
-      <h1>Reverie, 2021</h1>
-      <p className="mob-disclaimer">
-        These images are rotated 90° for mobile viewing, but they're meant to be
-        hung in landscape orientations.
-      </p>
-      <p className="mob-disclaimer">
-        Visit this page using a bigger monitor to see them as intended.
-      </p>
+    <main className="main">
+      <section className="hero">
+        <h1>Whirligrid: Reverie, 2021</h1>
+        <p className="mob mob--disclaimer">
+          Images are rotated 90° for mobile. Visit on desktop for landscape.
+        </p>
 
-      <hr />
+        <hr />
+
+        <p className="info">
+          Zuzana Licko's Whirligig font, laid out and manipulated via
+          Processing.
+        </p>
+        {/* <p className="info info--nomob">
+          An SVG of the font character is resized, rotated and placed randomly
+          on a grid. Colors from a defined palette are applied and adjusted with
+          random transparencies. A PDF is saved then processed further in
+          Illustrator and finally edited in LightRoom.
+        </p> */}
+        <p className="info">Prints available soon.</p>
+        <p className="info">
+          <a href="https://www.instagram.com/mechaneyes/">@mechaneyes</a>
+        </p>
+
+        <hr />
+      </section>
 
       {/* <!-- ————————————————————————————————————o Reverie - State of Awareness --> */}
       {/* <!-- ————————————————————————————————————o --> */}
@@ -247,22 +262,6 @@ const Whirl = () => {
             }
           />
         </picture>
-        <picture>
-          <source
-            srcSet={
-              process.env.PUBLIC_URL +
-              "/img/beyond/90_Reverie-AwarenessBeyondThought-0.1.0.jpg"
-            }
-            media="(max-width: 500px)"
-          />
-          <img
-            alt="Reverie - Awareness Beyond Thought - 0.1.0"
-            src={
-              process.env.PUBLIC_URL +
-              "/img/beyond/Reverie-AwarenessBeyondThought-0.1.0.jpg"
-            }
-          />
-        </picture>
       </Slider>
 
       {/* <!-- ————————————————————————————————————o Reverie - Simply Sitting Silently --> */}
@@ -437,31 +436,9 @@ const Whirl = () => {
         </picture>
       </Slider>
 
-      {/* <!-- ————————————————————————————————————o Reverie - Vibes from the Tribe --> */}
-      {/* <!-- ————————————————————————————————————o --> */}
-      <h2>Vibes from the Tribe</h2>
-      <Slider {...slickSettings}>
-        <picture>
-          <source
-            srcSet={
-              process.env.PUBLIC_URL +
-              "/img/vibes/90_Reverie-VibesFromTheTribe-0.6.0.png"
-            }
-            media="(max-width: 500px)"
-          />
-          <img
-            alt="Reverie - Vibes from the Tribe - 0.6.0"
-            src={
-              process.env.PUBLIC_URL +
-              "/img/vibes/Reverie-VibesFromTheTribe-0.6.0.png"
-            }
-          />
-        </picture>
-      </Slider>
-
       {/* <!-- ————————————————————————————————————o Reverie - VV Blue --> */}
       {/* <!-- ————————————————————————————————————o --> */}
-      <h2>LVvLV</h2>
+      <h2 style={{ marginBottom: 30 }}>LVvLV</h2>
       <picture>
         <source
           srcSet={
@@ -472,10 +449,10 @@ const Whirl = () => {
         <img
           alt="Reverie - VV Blue - 0.1.0"
           src={process.env.PUBLIC_URL + "/img/Reverie-Awareness-0.6.0.jpg"}
-          style={{ marginBottom: 150 }}
+          style={{ marginBottom: 0 }}
         />
       </picture>
-    </div>
+    </main>
   );
 };
 

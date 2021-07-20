@@ -7,23 +7,15 @@ body {
   background-color: black;
 }
 
-.carousel {
+main {
   background: black;
   overflow: hidden;
   box-sizing: border-box;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
     Helvetica, Arial, "Lucida Grande", sans-serif;
-  color: white;
+  color: #e2e2e2;
 
-  // <!-- ————————————————————————————————————o Post Later -->
-  #drone-logic {
-    // display: none;
-
-    & + div {
-      // display: none;
-    }
-  }
-
+  // <!-- ————————————————————————————————————o General -->
   * {
     box-sizing: border-box;
   }
@@ -32,21 +24,32 @@ body {
     color: white;
     text-decoration: none;
     border-bottom: 1px solid white;
+    border: none;
+
+    &:hover {
+      color: #03c1c8;
+    }
   }
 
   img {
     display: block !important;
-    // transform: rotate(90deg);
     width: 100%;
   }
 
+  hr {
+    display: none;
+    width: 85%;
+    margin: 15px auto;
+    border-color: darkgray;
+  }
+
   h1 {
-    font-size: 40px;
+    font-size: 36px;
   }
 
   h2 {
-    font-size: 35px;
-    font-weight: 300;
+    font-size: 30px;
+    font-weight: 500;
   }
 
   h3 {
@@ -55,35 +58,33 @@ body {
   }
 
   p {
-    font-size: 19px;
+    max-width: 530px;
+    margin: 10px auto;
+    font-size: 18px;
+    line-height: 1.5;
   }
 
-  .gig-header {
-    margin-bottom: 50px;
-    // border: 1px solid deepskyblue;
+  // <!-- ————————————————————————————————————o Hero -->
+  .hero {
+    width: 90%;
+    margin: 0 auto 80px;
   }
 
-  .mob-disclaimer {
+  .mob--disclaimer {
     display: none;
-    width: 80%;
-    margin: 0 auto 10px;
     line-height: 1.4;
-
-    &:first-of-type {
-      // margin-bottom: 10px;
-    }
   }
 
-  hr {
-    display: none;
-  }
+  // .info {
+  //   width: 70%;
+  // }
 
+  // <!-- ————————————————————————————————————o Slick -->
   .slick-slider {
     margin-bottom: 200px;
   }
 
   .slick-dots {
-    // margin-top: 20px;
     bottom: -35px;
 
     li button:before {
@@ -96,40 +97,47 @@ body {
     }
   }
 
+  // <!-- ————————————————————————————————————o mobile -->
+  // <!-- ————————————————————————————————————o  -->
   @media only screen and (max-width: 500px) {
     img {
-      // height: 100vh;
-      // width: auto;
       width: 100vw;
     }
 
     h2 {
-      margin-bottom: 0;
+      margin-bottom: -10px;
+      font-size: 29px;
     }
+
+    // p {
+    //   margin-bottom: 15px;
+    // }
 
     hr {
       display: block;
-      width: 90%;
-      margin: 30px 0 70px;
-      border-color: darkgray;
     }
 
-    .mob-disclaimer {
+    .hero {
+      margin-bottom: 50px;
+    }
+
+    // .info {
+    //   &--nomob {
+    //     display: none;
+    //   }
+    // }
+
+    .mob--disclaimer {
       display: block;
     }
 
     .slick-slider {
-      // top: -20px;
-      // height: 100vh;
-      margin-bottom: 150px;
+      margin-bottom: 200px;
     }
 
     .slick-list {
       top: 30px;
-      // left: -40vw;
-      width: 100vw;
       width: 174vw;
-      // transform: translate3d(-37vw, 0, 0) rotate(90deg) !important;
     }
 
     .slick-dots {
