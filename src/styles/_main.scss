@@ -1,3 +1,5 @@
+@import url("https://use.typekit.net/amb7lhn.css");
+
 body::-webkit-scrollbar {
   display: none;
 }
@@ -13,11 +15,28 @@ main {
   box-sizing: border-box;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
     Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-style: normal;
   color: #e2e2e2;
 
   // <!-- ————————————————————————————————————o General -->
   * {
     box-sizing: border-box;
+  }
+
+  br {
+    display: block;
+  }
+
+  hr {
+    display: none;
+    width: 85%;
+    margin: 15px auto;
+    border-color: darkgray;
+  }
+
+  img {
+    display: block !important;
+    width: 100%;
   }
 
   a {
@@ -31,25 +50,16 @@ main {
     }
   }
 
-  img {
-    display: block !important;
-    width: 100%;
-  }
-
-  hr {
-    display: none;
-    width: 85%;
-    margin: 15px auto;
-    border-color: darkgray;
-  }
-
   h1 {
+    font-family: orbitron, sans-serif;
     font-size: 36px;
+    font-weight: 500;
   }
 
   h2 {
+    font-family: orbitron, sans-serif;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 300;
   }
 
   h3 {
@@ -60,7 +70,9 @@ main {
   p {
     max-width: 530px;
     margin: 10px auto;
-    font-size: 18px;
+    // font-family: orbitron, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
     line-height: 1.5;
   }
 
@@ -100,6 +112,10 @@ main {
   // <!-- ————————————————————————————————————o mobile -->
   // <!-- ————————————————————————————————————o  -->
   @media only screen and (max-width: 500px) {
+    br {
+      display: none;
+    }
+
     img {
       width: 100vw;
     }

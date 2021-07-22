@@ -27,7 +27,7 @@ const Whirl = () => {
         <hr />
 
         <p className="info">
-          Zuzana Licko's Whirligig font, laid out and manipulated via
+          Zuzana Licko's Whirligig font, laid out and <br />manipulated via
           Processing.
         </p>
         {/* <p className="info info--nomob">
